@@ -1,0 +1,30 @@
+#first-heading {
+    color: green;
+    background-color: cornflowerblue;
+    font-size: 48px;
+    width: 200px;
+    height: 200px;
+    background-image: url("alesia");
+}
+ /*To select a chosen ID always use hashtag.
+   w3schools or css-tricks for inspiration, ideas and learning*/
+
+#second-heading {
+    color: #FF69B4;
+}
+
+#third-heading {
+    color: mediumpurple;
+}
+
+.generic-heading {
+    /*font-size: 42px;*/
+    background-color: orange;
+}
+/*ID overrides class*/
+p {
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+}
+/*Command Æ gjør om og reverserer markert linje til kommentar
+ kan brukes til å midlertidig parkere kode - se second heading*/
