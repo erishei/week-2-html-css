@@ -1,10 +1,13 @@
+body {
+        background-image: url("assets/images/alesia-body-image.jpg");
+}
+
 #first-heading {
     color: green;
     background-color: cornflowerblue;
     font-size: 48px;
     width: 200px;
     height: 200px;
-    background-image: url("alesia");
 }
  /*To select a chosen ID always use hashtag.
    w3schools or css-tricks for inspiration, ideas and learning*/
