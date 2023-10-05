@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto Light" sans-serif;
+}
+
+.banner {
+    position: relative;
+    height: 524px;
+}
+
+.banner-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 26%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0 0 0 / 20%);
+    height: 100%;
+}
+.banner-content h1 {
+    color: lightgoldenrodyellow;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+}
