@@ -6,25 +6,54 @@
     <title>
         Day 2 Week 2
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles-day-two.css"/>
 </head>
+<!--When posting a link to a font-family you want everywhere, make sure
+    to add it _above_ the link to your stylesheet so it applies before
+    anything in the css stylesheet-->
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a>First</a>
+            </li>
+            <li>
+                <a>Second</a>
+            </li>
+            <li>
+                <a>Third</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
 <body>
+    <a href="#">click me</a>
+<!-- a for links, button for downloads etc    -->
     <h2 id="first-heading" class="generic-heading">
-        hello world
+        hello <span id="first-heading-sub-word">world</span>
     </h2>
     <h2 id="second-heading" class="generic-heading">
-        hello world 2
+        hello <span>world</span> 2
     </h2>
     <h2 id="third-heading" class="generic-heading">
         hello world 3
     </h2>
+    <h2 class="generic-heading">
+        hello world 4
+    </h2>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros. Urna nunc id cursus metus aliquam. Ultrices dui sapien eget mi proin sed
     </p>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros. Urna nunc id cursus metus aliquam. Ultrices dui sapien eget mi proin sed
     </p>
+    <button>
+        I'm a button!
+    </button>
 </body>
 
 </html>
